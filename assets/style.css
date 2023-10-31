@@ -1,6 +1,17 @@
 * {
   box-sizing: border-box;
 }
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
 
 body {
   margin: 0;
@@ -20,4 +31,97 @@ h6 {
 
 p {
   margin: 0;
+}
+
+li >a{
+  color: black;
+}
+
+li{
+  list-style: none;
+  margin: 1rem;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  padding: 0 10px;
+  border-bottom: none;
+  text-decoration: none;
+
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+nav{
+align-items: center;}
+
+
+/* setting a background image to my header   */
+.hero-banner {
+  background-image: url("images/image11.jpg");
+  background-size: cover; 
+  background-position: center; 
+  height: 300px; 
+  text-align: center; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+/* styling the container of the picture in my header to obtain the shadow effecr */
+.pic-mask{
+  width: 20%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1.8);
+  background-color: rgba(255, 255, 255, 0.019);
+}
+/* giving the picture a width and modifying the appearance  */
+.me-pic{
+  width: 100%;
+  max-width: 100%;
+  transform: scale(1.1);
+  padding-top: 12px;
+  order: 2;
+}
+
+
+/* created a border-like effect separating the sections from the content */
+.page-section{
+  border-left: 2px solid blue;
+  padding-left: 20px;
+  margin: 30px;
+}
+
+.subtitle{
+  color: white;
+  flex: 1;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+.skills-container{
+  background-color:#eff5ff;
+  padding: 20px;
+  border-radius: 61px;
+  mix-blend-mode: color-burn;
+  width:fit-content;
+}
+
+.skills-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.fa-brands {
+  font-size: 2em;
+  margin-top: 40px;
+  padding: 0 15px 0 15px;
+  color: blue;
 }
