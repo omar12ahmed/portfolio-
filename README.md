@@ -23,9 +23,11 @@ Today, I'm entering a new chapter in my journey, having enrolled in a 4-month bo
 
 In this portfolio, you'll find a selection of my projects, each demonstrating different skills and technologies. Here are a few highlights:
 
-- [calculator](#): This project allows users to perform mathematical calculations.
-- [Employee Tracker](#): This project enables users to track and employess to a table.
-- [Form Validation](#): created a basic form validation preventing users from submitting incorrect data and experiencing errors.
+- [calculator](https://omar12ahmed.github.io/calculator/): This project allows users to perform mathematical calculations.
+- [Employee Tracker](https://omar12ahmed.github.io/employee-tracker/): This project enables users to monitor and and manage employess information.
+- [Form Validation](https://omar12ahmed.github.io/Form-validation/): A basic form validation preventing users from submitting incorrect data and experiencing errors.
+- [Shopping cart](https://omar12ahmed.github.io/shopping-cart/): A simple shopping cart which includes features like product display, shopping cart managemnt and form validation.
+- [Magic 8 ball](https://omar12ahmed.github.io/8-ball-game/): A magic 8 ball game were useres can ask a yes or no questions and recieve a random response.
 
 Feel free to explore each project for more details, including live demos and source code links.
 

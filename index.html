@@ -39,7 +39,8 @@
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2 class="section-title">About Me</h2>
+     <div class="border-effect"><h2 class="section-title">About Me</h2></div> 
+
       <div class="texts">
         <p class="text">My journey into the world of software development began with a degree in pharmacology. Yet, I
           quickly realized that my true passion lay in the realm of software development. This epiphany came thanks to
@@ -58,8 +59,8 @@
           to the ever-evolving world of technology.</p><br>
 
         </p>
-      </div>
-      <div class="skills-container">
+
+        <div class="skills-container">
         <span class="skills-title">Skills</span>
         <div class="skills-icons">
           <i class="skills-icon fa-brands fa-github"></i>
@@ -71,11 +72,14 @@
           <i class="fa-brands fa-vuejs"></i>
           <i class="skills-icon fa-brands fa-css3-alt"></i>
         </div>
+      </div>
+      
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2 class="section-title">Work</h2>
+      <div class="border-effect"><h2 class="section-title">Work</h2> </div>
+      <div class="flex">
       <div class="project-container">
         <div class="calculator-project">
           <a href="https://omar12ahmed.github.io/calculator/" target="_blank"></a>
@@ -90,44 +94,61 @@
           <a href="https://omar12ahmed.github.io/Form-validation/"></a>
           <div class="project-title">Form Validation</div>
         </div>
+
+        <div class="shopping-cart">
+          <a href="https://omar12ahmed.github.io/shopping-cart/"></a>
+          <div class="project-title">Shopping Cart</div>
+        </div>
+
+        <div class="eight-ball">
+          <a href="https://omar12ahmed.github.io/8-ball-game/"></a>
+          <div class="project-title"> magic 8 Ball Game</div>
+        </div>
+
+
+      </div>
       </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <h2 class="section-title">Contact Me</h2>
-      <div class="form-container">
-        <h3>Contact Form</h3>
-        <form>
-          <div class="form-input">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-          </div>
-          <div class="form-input">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-input">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
+      <div class="border-effect"><h2 class="section-title">Contact</h2></div>
 
-          <button class="submit-button" type="submit">Submit</button>
-        </form>
-      </div>
-      <h3>Contact Details</h3>
-      <p class="contact-details">Email: <a href="omar12ahmed@hotmail.com">omar12ahmed@hotmail.com</a></p>
-      <p class="contact-details">Phone: <a href="tel:+447379119026">+447379119026</a></p>
-      <div class="contact-icons">
-        <a class="github-icon" href="https://github.com/omar12ahmed" target="_blank">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://uk.linkedin.com/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i> </a>
-      </div>
+      <div>
 
-    </section>
-  </main>
-</body>
-
+        <div class="form-container">
+          <h3>Contact Form</h3>
+          <form>
+            <div class="form-input">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-input">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-input">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button class="submit-button" type="submit">Submit</button>
+          </form>
+        </div>
+        <h3>Contact Details</h3>
+        <p class="contact-details">Email: <a href="omar12ahmed@hotmail.com">omar12ahmed@hotmail.com</a></p>
+        <p class="contact-details">Phone: <a href="tel:+447379119026">+447379119026</a></p>
+        <div class="contact-icons">
+          <a class="github-icon" href="https://github.com/omar12ahmed" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://uk.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> </a>
+          </div>
+        </div>
+          
+        </section>
+      </main>
+    </body>
+    
 </html>
