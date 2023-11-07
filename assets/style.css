@@ -221,7 +221,7 @@ ul {
 }
 
 .shopping-cart{
-  background-image: url(/assets/images/shopping-cart.jpg);
+  background-image: url(images/shopping-cart.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -240,7 +240,7 @@ ul {
 }
 
 .eight-ball{
-  background-image: url(/assets/images/magic-8-ball.jpg);
+  background-image: url(images/magic-8-ball.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
